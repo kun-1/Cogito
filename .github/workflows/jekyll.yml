@@ -42,6 +42,12 @@ jobs:
         run: |
           bundle exec jekyll build  # 构建站点到 _site（或你指定的目录）
 
+          
+      - name: Move build files to docs directory
+        run: |
+          cp -R _site/* docs/  # 将构建结果移动到 docs 目录
+
+
       - name: List the contents of docs directory
         run: ls -l docs
   
