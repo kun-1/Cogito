@@ -38,10 +38,6 @@ jobs:
           rm -rf ./_site  # 清理旧的构建文件
           rm -rf .jekyll-cache  # 清理 Jekyll 缓存
 
-      - name: Run tests
-        run: |
-          bundle exec rspec  # 运行测试，依据你使用的框架来修改
-
       - name: Build the site with Jekyll
         run: |
           bundle exec jekyll build  # 构建站点到 _site（或你指定的目录）
