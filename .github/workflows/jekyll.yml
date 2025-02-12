@@ -41,14 +41,15 @@ jobs:
       - name: Build the site with Jekyll
         run: |
           bundle exec jekyll build  # 构建站点到 _site（或你指定的目录）
-
-      - name: List the contents of docs directory
-        run: ls -l docs
-  
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs  # 构建结果目录
+          
+      - name: List the contents of docs directory
+        run: ls -l docs
+  
 
   deploy:
     environment:
