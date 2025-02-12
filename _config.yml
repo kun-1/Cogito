@@ -195,7 +195,8 @@ defaults:
       permalink: /:title/
 
 sass:
-  style: compressed
+  sass_dir: "assets/css"  # 确保指向包含 SCSS 文件的目录
+  style: "compressed"      # 压缩输出的 CSS 文件
 
 compress_html:
   clippings: all
