@@ -230,3 +230,4 @@ plugins:
   - jekyll-github-metadata
   - jekyll-sitemap
 
+destination: ./docs
