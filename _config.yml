@@ -2,6 +2,7 @@
 
 # Import the theme
 theme: jekyll-theme-chirpy
+remote_theme: cotes25/jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -23,7 +24,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "http://kun-1/github/io"
 
 github:
   username: kun-1 # change to your GitHub username
@@ -98,7 +99,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "http://127.0.0.1:4000/assets/img/favicon.svg"
+avatar: "https://kun-1.github.io/Cogito/assets/img/favicon.svg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -150,7 +151,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/Cogito"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -194,8 +195,8 @@ defaults:
       permalink: /:title/
 
 sass:
-  style: compressed
-
+  style: expanded  # 不压缩，保留原始 SCSS 文件
+  
 compress_html:
   clippings: all
   comments: all
@@ -229,4 +230,4 @@ plugins:
   - jekyll-github-metadata
   - jekyll-sitemap
 
-destination: docs
+destination: ./docs

@@ -1,43 +1,19 @@
 [
   {
-    "title": "New Try",
-    "url": "/posts/New-try/",
-    "categories": "Blogging, New",
-    "tags": "none",
-    "date": "2025-02-10 00:00:00 +0800",
-    "content": "This is a new try!"
+    "title": null,
+    "url": "/Cogito/posts/2025-2-26-%E5%A6%82%E4%BD%95%E4%BF%9D%E6%8A%A4%E8%87%AA%E5%B7%B1/",
+    "categories": "",
+    "tags": "",
+    "date": "2025-02-27 19:48:34 +0800",
+    "content": "这是一篇启发，来自于湛叔的直播笔记1。我不确定能否讲清楚湛叔表达的观点，但是我会努力做到这点。并且如果我讲的不够清楚，欢迎大家去看湛叔的直播，他的语言既简洁而清晰。这篇文章主要讨论成长经历与“环境”的关系。  大家不妨思考一下，什么是成长经历，什么是“环境”。成长经历指的是一个人成长过程中经历的事情，这些事情影响着他们的观念。而“环境”则指的是除我们自己之外的事物，包括人，思想观念，社会文化..."
   },
   {
-    "title": "Customize the Favicon",
-    "url": "/posts/customize-the-favicon/",
-    "categories": "Blogging, Tutorial",
-    "tags": "favicon",
-    "date": "2019-08-11 00:34:00 +0800",
-    "content": "The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons..."
-  },
-  {
-    "title": "Getting Started",
-    "url": "/posts/getting-started/",
-    "categories": "Blogging, Tutorial",
-    "tags": "getting started",
-    "date": "2019-08-09 20:55:00 +0800",
-    "content": "Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server."
-  },
-  {
-    "title": "Writing a New Post",
-    "url": "/posts/write-a-new-post/",
-    "categories": "Blogging, Tutorial",
-    "tags": "writing",
-    "date": "2019-08-08 14:10:00 +0800",
-    "content": "This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.  Naming and..."
-  },
-  {
-    "title": "Text and Typography",
-    "url": "/posts/text-and-typography/",
-    "categories": "Blogging, Demo",
-    "tags": "typography",
-    "date": "2019-08-08 11:33:00 +0800",
-    "content": "Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more."
+    "title": null,
+    "url": "/Cogito/posts/2025-2-25-the-project-of-building-heartsthone-ai/",
+    "categories": "",
+    "tags": "",
+    "date": "2025-02-27 19:48:34 +0800",
+    "content": "训练炉石酒馆AI项目  训练哲学"
   }
   
 ]
